@@ -30,16 +30,18 @@
 
         // console.log(reg.test("abc"))
         // console.log(reg.test("ab1"))
+        // console.log(reg.test("ab12"))
 
 
          //4. {n} 指定次数
 
         //  var reg=/\d{3}/
-        //  var reg=/a{3}/
+         var reg=/a{3}/   // 必须是连续
 
-        // console.log(reg.test("aaa"))
-        // console.log(reg.test("ab12"))
-        // console.log(reg.test("ab123"))
+        console.log(reg.test("aaa"))
+        console.log(reg.test("araa"))
+        console.log(reg.test("ab12"))
+        console.log(reg.test("ab123"))
 
          //4. {n,} >=n
 
@@ -52,21 +54,21 @@
         // console.log(reg.exec("ab12345"))
 
         //5. {n,m}
-        var reg=/\d{3,5}/
-        //  var reg=/a{3}/
+        // var reg=/\d{3,5}/
+        // //  var reg=/a{3}/
 
-        console.log(reg.test("aaa"))
-        console.log(reg.test("ab12"))
-        console.log(reg.test("ab123"))
-        console.log(reg.exec("ab123456"))
+        // console.log(reg.test("aaa"))
+        // console.log(reg.test("ab12"))
+        // console.log(reg.test("ab123"))
+        // console.log(reg.exec("ab123456"))
 
 
-        var reg2= /^abc{2}$/
+        // var reg2= /^abc{2}$/
 
-        console.log(reg2.test("abc"))
-        console.log(reg2.test("decc"))
-        console.log(reg2.test("332abcc4343"))
-        console.log(reg2.test("abcc"))
+        // console.log(reg2.test("abc"))
+        // console.log(reg2.test("decc"))
+        // console.log(reg2.test("332abcc4343"))
+        // console.log(reg2.test("abcc"))
 
     </script>
 </body>

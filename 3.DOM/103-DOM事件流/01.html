@@ -77,7 +77,8 @@
         */
 
 
-            inner.addEventListener("click",function(){
+            inner.addEventListener("click",function(e){
+                // e.stopPropagation() // 阻止冒泡
                 console.log("inner")
             })
             center.addEventListener("click",function(){
@@ -97,24 +98,24 @@
             })
 
 
-            // inner.addEventListener("click",function(){
-            //     console.log("inner-捕获")
-            // },true)
-            // center.addEventListener("click",function(){
-            //     console.log("center-捕获")
-            // },true)
-            // outer.addEventListener("click",function(){
-            //     console.log("outer-捕获")
-            // },true)
-            // document.body.addEventListener("click",function(){
-            //     console.log("document.body-捕获")
-            // },true)
-            // document.documentElement.addEventListener("click",function(){
-            //     console.log("document.docuementElement-捕获")
-            // },true)
-            // window.addEventListener("click",function(){
-            //     console.log("window-捕获")
-            // },true)
+            inner.addEventListener("click",function(){
+                console.log("inner-捕获")
+            },true)
+            center.addEventListener("click",function(){
+                console.log("center-捕获")
+            },true)
+            outer.addEventListener("click",function(){
+                console.log("outer-捕获")
+            },true)
+            document.body.addEventListener("click",function(){
+                console.log("document.body-捕获")
+            },true)
+            document.documentElement.addEventListener("click",function(){
+                console.log("document.docuementElement-捕获")
+            },true)
+            window.addEventListener("click",function(){
+                console.log("window-捕获")
+            },true)
     </script>
 </body>
 </html>
