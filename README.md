@@ -2728,20 +2728,13 @@ console.log(typeof(s1));
   ```
 
 
-#### 二.BOM
-
-#### 三.DOM
-
+#### 二.[BOM](https://github.com/hanxiang123/JS-/blob/master/BOM.md)
+#### 三.[DOM](https://github.com/hanxiang123/JS-/blob/master/DOM.md)
 #### 四.正则表达式
-
-#### 五.面向对象
-
-#### 六.AJAX
-
-#### 七.JQuery
-
-#### 八.Swiper
-
-#### 九.BootStrap
-
-#### 十.Sass
+  google助手 FeHelper 可以帮助生成正则表达式
+#### 五.[面向对象](https://github.com/hanxiang123/JS-/blob/master/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.md)
+#### 六.[AJAX](https://github.com/hanxiang123/JS-/blob/master/AJAX.md)
+#### 七.[JQuery](https://github.com/hanxiang123/JS-/blob/master/JQUERY.md)
+#### 八.[Swiper](https://github.com/hanxiang123/JS-/blob/master/SWIPER.md)
+#### 九.[BootStrap](https://github.com/hanxiang123/JS-/blob/master/BOOTSTRAP.md)
+#### 十.[Sass](https://github.com/hanxiang123/JS-/blob/master/SASS.md)
