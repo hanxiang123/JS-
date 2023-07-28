@@ -63,7 +63,7 @@
   window.alert('我是一个提示框')
   ```
 
-  ![](../assets/alert.png)
+  ![](./assets/alert.png)
 
   - 这个弹出层知识一个提示内容，只有一个确定按钮
   - 点击确定按钮以后，这个提示框就消失了
@@ -75,7 +75,7 @@
   console.log(boo)
   ```
 
-  ![](../assets/confirm.png)
+  ![](./assets/confirm.png)
 
   - 这个弹出层有一个询问信息和两个按钮
   - 当你点击确定的时候，就会得到 `true`
@@ -88,7 +88,7 @@
   console.log(str)
   ```
 
-  ![](../assets/prompt.png)
+  ![](./assets/prompt.png)
 
   - 这个弹出层有一个输入框和两个按钮
   - 当你点击取消的时候，得到的是 `null`

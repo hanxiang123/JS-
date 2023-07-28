@@ -6,7 +6,7 @@
 
 #### 九. BootStrap
 
-![image-20220716160225615](../assets/image-20220716160225615.png)
+![image-20220716160225615](./assets/image-20220716160225615.png)
 
 > https://www.bootcss.com/
 

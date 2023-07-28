@@ -15,9 +15,9 @@
 
         var obj1 = {
             name:"obj1",
-            getName:function(a,b,c){
+            getName:function(...a){
                 console.log("getName1",this.name)
-                console.log("参数",a,b,c)
+                console.log("参数",a)
             }
         }
         var obj2 = {

@@ -354,7 +354,7 @@ ajax({
 
 - **回调地狱，其实就是回调函数嵌套过多导致的**
 
-![](../assets/huidiaodiyu.jpeg)
+![](./assets/huidiaodiyu.jpeg)
 
 - 当代码成为这个结构以后，已经没有维护的可能了
 - 所以我们要把代码写的更加的艺术一些
